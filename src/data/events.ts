@@ -16,7 +16,7 @@ export const events: EventItem[] = [
     date: "2026-08-18",
     excerpt:
       "Students from the Department of Computer Science & Engineering have been selected for a social-impact technology internship with Seva Satkar Foundation.",
-    image: "/images/students.jpg",
+    image: "/images/students.webp",
     body: [
       "Global Institute of Technology and Management, Gurugram, congratulates the students selected for the Seva Satkar Foundation internship programme.",
       "The internship gives students hands-on exposure to building and maintaining technology for social-sector operations, working directly with field teams and partner organisations.",
@@ -30,7 +30,7 @@ export const events: EventItem[] = [
     date: "2026-08-12",
     excerpt:
       "Final-year students have received offers from Savera following an on-campus recruitment drive conducted by the Centre for Corporate Relations.",
-    image: "/images/classroom.jpg",
+    image: "/images/classroom.webp",
     body: [
       "The Global Institute of Technology and Management, Gurugram, proudly announces another successful campus placement drive.",
       "Savera conducted a multi-round selection process covering aptitude, technical discussion and personal interview on the GITM campus.",
@@ -44,7 +44,7 @@ export const events: EventItem[] = [
     date: "2026-08-05",
     excerpt:
       "Codeyoung visited campus to hire for technology and instructional roles, with students from CSE, ECE and MBA participating.",
-    image: "/images/lab.jpg",
+    image: "/images/lab.webp",
     body: [
       "GITM Gurugram welcomed Codeyoung for a full-day campus recruitment drive.",
       "The process began with a pre-placement talk covering the company's product roadmap and role expectations, followed by a coding round and interviews.",
@@ -58,7 +58,7 @@ export const events: EventItem[] = [
     date: "2026-07-29",
     excerpt:
       "A GITM student has been appointed campus ambassador for OSCode, leading peer programmes on open source and competitive programming.",
-    image: "/images/campus-view.jpg",
+    image: "/images/campus-view.webp",
     body: [
       "GITM Gurugram is proud to announce the selection of a student as OSCode campus ambassador.",
       "Campus ambassadors run coding circles, hackathons and open-source contribution sprints for their peers, supported by the department's faculty coordinators.",
@@ -72,7 +72,7 @@ export const events: EventItem[] = [
     date: "2026-07-22",
     excerpt:
       "Shortlists for content engineer-developer and AI developer roles follow a technical assessment round held on campus.",
-    image: "/images/classroom-2.jpg",
+    image: "/images/classroom-2.webp",
     body: [
       "The Global Institute of Technology and Management, Gurugram, proudly shares that its students have been shortlisted by StickyPins Inc.",
       "Roles included content engineer-developer and AI developer positions, assessed through a practical task followed by technical interviews.",
@@ -86,7 +86,7 @@ export const events: EventItem[] = [
     date: "2026-07-15",
     excerpt:
       "Kalvium met final-year students for product engineering roles, with an emphasis on problem solving and project portfolios.",
-    image: "/images/campus-hero.jpg",
+    image: "/images/campus-hero.webp",
     body: [
       "GITM Gurugram welcomed the Kalvium team for a campus recruitment drive.",
       "Students presented projects from their capstone work and departmental labs, an approach that aligns with how the company evaluates engineering candidates.",
@@ -100,7 +100,7 @@ export const events: EventItem[] = [
     date: "2026-07-08",
     excerpt:
       "Parth and Sarvesh Kumar have been selected as Internshala student partners, supporting peers with internship discovery and applications.",
-    image: "/images/students.jpg",
+    image: "/images/students.webp",
     body: [
       "The Global Institute of Technology and Management, Gurugram, congratulates Parth and Sarvesh Kumar on their selection as Internshala student partners.",
       "The programme equips student partners to run internship-awareness sessions, review applications and connect classmates with verified opportunities.",
@@ -114,7 +114,7 @@ export const events: EventItem[] = [
     date: "2026-06-30",
     excerpt:
       "The appointment will bring structured coding mentorship and contests to GITM's first and second-year students.",
-    image: "/images/lab.jpg",
+    image: "/images/lab.webp",
     body: [
       "Student Manav Mahawar has been selected as an AlgoCirrus campus ambassador for GITM Gurugram.",
       "Ambassadors coordinate coding contests, doubt-clearing sessions and mentorship circles within the department.",
@@ -128,7 +128,7 @@ export const events: EventItem[] = [
     date: "2026-06-20",
     excerpt:
       "A multi-week programme combining technical training, aptitude preparation and an assessment for final-year students.",
-    image: "/images/classroom.jpg",
+    image: "/images/classroom.webp",
     body: [
       "GITM Gurugram announced the commencement of a Capgemini training-cum-placement programme on campus.",
       "The programme combines instructor-led technical sessions, aptitude modules and periodic assessments, with successful candidates moving into the company's hiring pipeline.",
@@ -142,7 +142,7 @@ export const events: EventItem[] = [
     date: "2026-06-10",
     excerpt:
       "Selected pre-final year students will work on applied design and engineering projects through the summer.",
-    image: "/images/campus-view.jpg",
+    image: "/images/campus-view.webp",
     body: [
       "GITM Gurugram announced opportunities for pre-final year students through the Adobe summer internship programme.",
       "The selection process involved a portfolio or coding submission followed by technical interviews.",
@@ -156,7 +156,7 @@ export const events: EventItem[] = [
     date: "2026-05-28",
     excerpt:
       "A dedicated drive for management students, covering analytics, operations and relationship-management roles.",
-    image: "/images/campus-2.jpg",
+    image: "/images/campus-2.webp",
     body: [
       "The Global Institute of Technology and Management, Gurugram, welcomed the EduBridge team for a placement drive focused on management students.",
       "BBA and MBA candidates went through group discussions, aptitude testing and interviews across analytics, operations and client-facing roles.",
@@ -170,7 +170,7 @@ export const events: EventItem[] = [
     date: "2026-05-15",
     excerpt:
       "The role brings student-led programmes on immersive technology and spatial computing to campus.",
-    image: "/images/campus-3.png",
+    image: "/images/campus-3.webp",
     body: [
       "GITM Gurugram is delighted to share that one of its students has been selected as a Meta Space student ambassador.",
       "The ambassador will organise workshops introducing peers to AR/VR development and spatial computing concepts.",

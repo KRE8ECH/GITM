@@ -25,7 +25,7 @@ export default function ProgrammesPage() {
         title="Eight programmes, built around what employers actually ask for."
         description="Every programme carries laboratories, industry visits, internship support and a placement track through the Centre for Corporate Relations. All degrees are awarded by Gurugram University."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Programmes" }]}
-        image="/images/lab.jpg"
+        image="/images/lab.webp"
       />
 
       <section className="border-b border-ink-900/10 bg-parchment py-8">

@@ -19,7 +19,7 @@ export default function LeadershipPage() {
         title="The people accountable for your education."
         description="Our leadership team sets the academic and ethical standard the institute is measured against. These are their own words."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Leadership" }]}
-        image="/images/campus-2.jpg"
+        image="/images/campus-2.webp"
       />
 
       <section className="py-16 md:py-24">

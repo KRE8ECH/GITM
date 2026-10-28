@@ -6,21 +6,21 @@ import Icon from "./Icon";
 
 const slides = [
   {
-    image: "/images/campus-hero.jpg",
+    image: "/images/campus-hero.webp",
     kicker: "Established 2008 · Farrukhnagar, Gurugram",
     title: "An engineering education built for the Delhi NCR workplace.",
     body: "AICTE-approved programmes, 18 acres of campus, and a curriculum designed around what industry actually hires for.",
     alt: "GITM Gurugram main academic block with its distinctive dome",
   },
   {
-    image: "/images/lab.jpg",
+    image: "/images/lab.webp",
     kicker: "Ten labs · 500+ workstations",
     title: "Where the code, circuits and concrete get built.",
     body: "Computer science, AI, electronics, mechanical and civil laboratories open to students well beyond scheduled hours.",
     alt: "Students working in a GITM computer laboratory",
   },
   {
-    image: "/images/students.jpg",
+    image: "/images/students.webp",
     kicker: "Placements · Centre for Corporate Relations",
     title: "Employability starts in the first year, not the last.",
     body: "Aptitude training, mock interviews and campus drives with recruiters across IT, banking, analytics and manufacturing.",

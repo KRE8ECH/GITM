@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const gallery = [
-  { src: "/images/campus-hero.jpg", alt: "GITM Gurugram academic block", span: "lg:col-span-2 lg:row-span-2", label: "Academic block" },
-  { src: "/images/lab.jpg", alt: "Computer laboratory with students at workstations", span: "", label: "Computer labs" },
-  { src: "/images/students.jpg", alt: "Students walking on campus", span: "", label: "Campus walks" },
-  { src: "/images/classroom.jpg", alt: "Classroom session in progress", span: "", label: "Classrooms" },
-  { src: "/images/campus-2.jpg", alt: "Campus building and lawns", span: "", label: "Green campus" },
+  { src: "/images/campus-hero.webp", alt: "GITM Gurugram academic block", span: "lg:col-span-2 lg:row-span-2", label: "Academic block" },
+  { src: "/images/lab.webp", alt: "Computer laboratory with students at workstations", span: "", label: "Computer labs" },
+  { src: "/images/students.webp", alt: "Students walking on campus", span: "", label: "Campus walks" },
+  { src: "/images/classroom.webp", alt: "Classroom session in progress", span: "", label: "Classrooms" },
+  { src: "/images/campus-2.webp", alt: "Campus building and lawns", span: "", label: "Green campus" },
 ];
 
 export default function CampusLifePage() {
@@ -28,7 +28,7 @@ export default function CampusLifePage() {
         title="Eighteen acres, three lakh square feet, and a calendar that never stays quiet."
         description="A residential campus in Farrukhnagar where laboratories, hostels, sports grounds and student clubs sit within a few minutes of each other."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Campus Life" }]}
-        image="/images/campus-2.jpg"
+        image="/images/campus-2.webp"
       />
 
       {/* Gallery */}
@@ -98,7 +98,7 @@ export default function CampusLifePage() {
             </p>
             <div className="mt-6 overflow-hidden rounded-2xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/students.jpg" alt="GITM students walking through campus between sessions" className="aspect-[16/10] w-full object-cover" />
+              <img src="/images/students.webp" alt="GITM students walking through campus between sessions" className="aspect-[16/10] w-full object-cover" />
             </div>
           </Reveal>
 

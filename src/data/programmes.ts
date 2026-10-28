@@ -25,7 +25,7 @@ export const programmes: Programme[] = [
     department: "Computer Science & Engineering",
     duration: "4 years · 8 semesters",
     level: "Undergraduate",
-    image: "/images/lab.jpg",
+    image: "/images/lab.webp",
     blurb:
       "A hands-on computer science degree built around industry practice — eight dedicated labs, 250+ workstations and a curriculum that keeps pace with the market.",
     overview: [
@@ -88,7 +88,7 @@ export const programmes: Programme[] = [
     department: "Artificial Intelligence & Data Science",
     duration: "4 years · 8 semesters",
     level: "Undergraduate",
-    image: "/images/classroom.jpg",
+    image: "/images/classroom.webp",
     blurb:
       "An applied AI degree covering machine learning, deep learning and data engineering — for students who want to build the models, not just use them.",
     overview: [
@@ -131,7 +131,7 @@ export const programmes: Programme[] = [
     department: "Electronics & Communication Engineering",
     duration: "4 years · 8 semesters",
     level: "Undergraduate",
-    image: "/images/classroom-2.jpg",
+    image: "/images/classroom-2.webp",
     blurb:
       "From semiconductor devices to 5G and embedded systems — the engineering behind every connected device in the modern world.",
     overview: [
@@ -174,7 +174,7 @@ export const programmes: Programme[] = [
     department: "Mechanical Engineering",
     duration: "4 years · 8 semesters",
     level: "Undergraduate",
-    image: "/images/campus-view.jpg",
+    image: "/images/campus-view.webp",
     blurb:
       "One of the oldest and broadest engineering disciplines, taught with a manufacturing and automation focus that maps directly to the Delhi NCR industrial belt.",
     overview: [
@@ -260,7 +260,7 @@ export const programmes: Programme[] = [
     department: "Computer Science & Engineering",
     duration: "2 years · 4 semesters",
     level: "Postgraduate",
-    image: "/images/lab.jpg",
+    image: "/images/lab.webp",
     blurb:
       "A research-oriented postgraduate programme for engineers who want depth in AI, data science, security or high-performance computing.",
     overview: [
@@ -303,7 +303,7 @@ export const programmes: Programme[] = [
     department: "Department of Management Studies",
     duration: "2 years · 4 semesters",
     level: "Postgraduate",
-    image: "/images/students.jpg",
+    image: "/images/students.webp",
     blurb:
       "A practice-led MBA with specialisations in marketing, finance, HR and business analytics, built around live company projects and a full placement season.",
     overview: [
@@ -346,7 +346,7 @@ export const programmes: Programme[] = [
     department: "Department of Management Studies",
     duration: "3 years · 6 semesters",
     level: "Undergraduate",
-    image: "/images/campus-hero.jpg",
+    image: "/images/campus-hero.webp",
     blurb:
       "A three-year business foundation covering management, marketing, finance and analytics — with the option to continue into GITM's MBA.",
     overview: [
