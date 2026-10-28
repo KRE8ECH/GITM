@@ -33,6 +33,46 @@ export const site = {
   },
 };
 
+export type Social = {
+  name: string;
+  handle: string;
+  href: string;
+  brand: "instagram" | "linkedin" | "facebook" | "x" | "youtube";
+};
+
+export const socials: Social[] = [
+  {
+    name: "Instagram",
+    handle: "@gitm_gurgaon",
+    href: "https://www.instagram.com/gitm_gurgaon/",
+    brand: "instagram",
+  },
+  {
+    name: "LinkedIn",
+    handle: "Global Institute of Technology & Management",
+    href: "https://www.linkedin.com/school/global-institute-of-technology-management-gurugram-gitm/",
+    brand: "linkedin",
+  },
+  {
+    name: "Facebook",
+    handle: "GITM Gurgaon",
+    href: "https://www.facebook.com/gitm.gurgaon.india/",
+    brand: "facebook",
+  },
+  {
+    name: "X",
+    handle: "@gitmfarukhnagar",
+    href: "https://x.com/gitmfarukhnagar",
+    brand: "x",
+  },
+  {
+    name: "YouTube",
+    handle: "GITM Gurgaon",
+    href: "https://www.youtube.com/@GITMGuraon",
+    brand: "youtube",
+  },
+];
+
 export const departments = [
   { name: "Admissions", phone: "+91 95551 00100", email: "admission@gitmgurgaon.com" },
   { name: "Administration", phone: "+91 89507 46762", email: "admin@gitmgurgaon.com" },

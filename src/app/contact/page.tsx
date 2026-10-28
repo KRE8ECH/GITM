@@ -4,6 +4,7 @@ import Reveal from "@/components/Reveal";
 import Icon from "@/components/Icon";
 import ContactForm from "@/components/ContactForm";
 import { departments, site } from "@/data/site";
+import SocialLinks from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title: "Contact — campus address, department numbers and enquiries",
@@ -94,7 +95,15 @@ export default function ContactPage() {
               ))}
             </div>
 
-            <div className="mt-6 rounded-2xl bg-ink-900 p-6 text-white">
+            <div className="mt-6 rounded-2xl border border-ink-900/10 bg-white p-6">
+              <h3 className="font-serif text-lg text-ink-900">Follow GITM</h3>
+              <p className="mt-1.5 text-[0.82rem] leading-relaxed text-ink-700/85">
+                Campus news, placements and student achievements, posted as they happen.
+              </p>
+              <SocialLinks tone="light" variant="labelled" className="mt-4" />
+            </div>
+
+            <div className="mt-4 rounded-2xl bg-ink-900 p-6 text-white">
               <h3 className="font-serif text-lg">Prefer WhatsApp?</h3>
               <p className="mt-2 text-[0.84rem] leading-relaxed text-white/60">
                 Message the admissions team directly. We reply during office hours.

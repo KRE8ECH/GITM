@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { nav, site } from "@/data/site";
 import Icon from "./Icon";
 import Logo from "./Logo";
+import SocialLinks from "./SocialLinks";
 
 export default function Header() {
   const pathname = usePathname();
@@ -53,6 +54,8 @@ export default function Header() {
               <Icon name="mail" className="h-3.5 w-3.5" />
               {site.campus.email}
             </a>
+            <span className="h-3 w-px bg-white/15" aria-hidden="true" />
+            <SocialLinks tone="dark" variant="plain" limit={2} />
             <a
               href={site.applyUrl}
               target="_blank"
@@ -208,6 +211,10 @@ export default function Header() {
             <a href={`mailto:${site.campus.email}`} className="flex items-center gap-2">
               <Icon name="mail" className="h-4 w-4 text-gold-600" /> {site.campus.email}
             </a>
+          </div>
+          <div className="mt-6 border-t border-ink-900/10 pt-5">
+            <p className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-gold-700">Follow GITM</p>
+            <SocialLinks tone="light" className="mt-3" />
           </div>
         </div>
       </div>
