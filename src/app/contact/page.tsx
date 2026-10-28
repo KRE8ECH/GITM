@@ -22,7 +22,7 @@ export default function ContactPage() {
         title="Talk to a person, not a form."
         description="Reach the right department directly — admissions, hostel, transport, accounts or placements. Our team answers calls Monday to Saturday, 9:00 AM to 5:00 PM."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Contact" }]}
-        image="/images/campus-view.jpg"
+        image="/images/campus-view.webp"
       />
 
       {/* Primary contacts */}

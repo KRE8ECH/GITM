@@ -107,7 +107,7 @@ export default function AdmissionsPage() {
         title="A transparent admission process, explained before you commit."
         description="We publish eligibility, documents and timelines in plain language. Read it here, then call us with anything that is still unclear — including the questions that decide whether GITM is right for you."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Admissions" }]}
-        image="/images/students.jpg"
+        image="/images/students.webp"
       />
 
       {/* Quick facts */}
@@ -352,7 +352,7 @@ export default function AdmissionsPage() {
             <div className="overflow-hidden rounded-2xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/students.jpg"
+                src="/images/students.webp"
                 alt="Students from across India and neighbouring countries on the GITM campus"
                 className="aspect-[4/3] w-full object-cover"
               />

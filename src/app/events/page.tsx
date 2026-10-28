@@ -20,7 +20,7 @@ export default function EventsPage() {
         title="What is actually happening at GITM."
         description="Placement drives, internship selections, student achievements and industry programmes — published as they happen, not collated once a year."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Events" }]}
-        image="/images/classroom-2.jpg"
+        image="/images/classroom-2.webp"
       />
 
       <section className="py-16 md:py-20">

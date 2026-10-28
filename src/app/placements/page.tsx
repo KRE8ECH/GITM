@@ -40,7 +40,7 @@ export default function PlacementsPage() {
         title="Career preparation that starts long before the final semester."
         description="The Centre for Corporate Relations maintains recruiter relationships across Delhi NCR and runs a structured employability programme from the first year to the last."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Placements" }]}
-        image="/images/classroom.jpg"
+        image="/images/classroom.webp"
       />
 
       {/* Stats strip */}

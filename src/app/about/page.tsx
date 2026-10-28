@@ -38,7 +38,7 @@ export default function AboutPage() {
         title="Built in 2008 for the workplaces Gurugram was creating."
         description="Global Institute of Technology & Management is an AICTE-approved institute affiliated to Gurugram University, operating an 18-acre residential campus in Farrukhnagar, Gurugram."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "About" }]}
-        image="/images/campus-hero.jpg"
+        image="/images/campus-hero.webp"
       />
 
       {/* Story */}
@@ -91,7 +91,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-2xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/campus-2.jpg"
+                src="/images/campus-2.webp"
                 alt="GITM Gurugram academic building and landscaped campus"
                 className="aspect-[4/3] w-full object-cover"
               />
@@ -99,11 +99,11 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="overflow-hidden rounded-2xl">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/lab.jpg" alt="Computer laboratory at GITM Gurugram" className="aspect-square w-full object-cover" />
+                <img src="/images/lab.webp" alt="Computer laboratory at GITM Gurugram" className="aspect-square w-full object-cover" />
               </div>
               <div className="overflow-hidden rounded-2xl">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/classroom.jpg" alt="Students in a GITM classroom" className="aspect-square w-full object-cover" />
+                <img src="/images/classroom.webp" alt="Students in a GITM classroom" className="aspect-square w-full object-cover" />
               </div>
             </div>
             <div className="rounded-2xl bg-ink-900 p-6 text-white">
