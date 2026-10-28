@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { departments, site } from "@/data/site";
+import SocialLinks from "./SocialLinks";
 import { programmes } from "@/data/programmes";
 import Icon from "./Icon";
 import Logo from "./Logo";
@@ -58,6 +59,10 @@ export default function Footer() {
                   {item}
                 </span>
               ))}
+            </div>
+            <div className="mt-7">
+              <p className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-gold-400">Follow GITM</p>
+              <SocialLinks tone="dark" className="mt-3" />
             </div>
           </div>
 

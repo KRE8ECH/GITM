@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingAction from "@/components/FloatingAction";
-import { site } from "@/data/site";
+import { site, socials } from "@/data/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -62,7 +62,7 @@ const organisationSchema = {
     postalCode: "122506",
     addressCountry: "IN",
   },
-  sameAs: ["https://www.linkedin.com/school/gitm-gurgaon/"],
+  sameAs: socials.map((social) => social.href),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
